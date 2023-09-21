@@ -2,11 +2,16 @@ section {
     border-top: 1px solid black
 }
 
+html{ 
+    background: rgb(38, 125, 240);
+}
+
 .links {
     float: right;
 }
 
 header {
+    font-size: 30px;
     position: fixed;
     left: 0;
     right: 0;
@@ -16,15 +21,37 @@ header {
 
 body {
     background: rgb(144, 236, 236);
-    max-width: 960px;
+    max-width: 975px;
     color: rgb(2, 2, 36);
     margin: 0 auto;  
 }
 
 main {
-    min-height: 50px;
+    min-height: 500px;
     padding: 64px 24px 96px;
     box-shadow: 0 0 12px -2px black;
     color: rgb(2, 2, 36);
 
+}
+header, footer {
+    background: whitesmoke;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    right: 0;
+    padding: 10px 10px;
+    box-shadow: 0 2px 4px -2px black;
+}
+h1 {
+    color: rgb(248, 104, 20);
+}
+
+h2 {
+    color:rgb(248, 104, 20);
+}
+
+p {
+    font-style: italic;
 }
