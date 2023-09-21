@@ -1,0 +1,19 @@
+.CSS-contact-flex {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgb(4, 195, 253);
+}
+.CSS-contact-flex > div {
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+html {
+    background-color: rgb(157, 5, 218);
+}
+.links {
+    float: right;
+}
